@@ -155,9 +155,35 @@ Four sources, four very different lead times. Start all of them now.
 | **Congress.gov** | <https://api.congress.gov/sign-up/> | Instant |
 | **openFEC** | <https://api.data.gov/signup/> | Instant |
 | **NewsAPI** | <https://newsapi.org/register> | A day or two |
-| **OpenSecrets bulk** | <https://www.opensecrets.org/open-data> | **Possibly weeks — start today** |
+| **OpenSecrets bulk** | <https://www.opensecrets.org/bulk-data/signup> | **Possibly weeks — start today** |
 
 OpenSecrets requires registering an account, agreeing to educational-use terms, and then waiting for manual approval. There's no published turnaround. Start it now even though we won't use it until September 17.
+
+### The OpenSecrets form needs some care
+
+The first three sign-ups are a form and an email confirmation. OpenSecrets is a real application that a person reads, so it's worth five minutes of attention.
+
+**Register with your UVA address.** OpenSecrets asks students at U.S. institutions to use their `.edu` email. A personal Gmail is the easiest way to get held up.
+
+**Under PROJECT AREA, check these five boxes:**
+
+- Federal Data
+- Candidate/Officeholder
+- Candidate Contribution
+- Independent Expenditures
+- PAC Contributions
+
+You can add **527** if you want fuller coverage of outside spending. Leave everything else unchecked.
+
+> **Watch out for "Candidate Expenditures."** It sits right next to the boxes you want, but it's about how candidates *spend* money, not what they receive — we don't use it. Easy misclick.
+
+**Don't check every box.** Nineteen categories ticked looks like a bulk scrape rather than a project, and that's exactly what the written section is there to filter. Five checkboxes that match what you write below is a coherent application.
+
+**TELL US ABOUT YOUR PROJECT has a 100-word minimum**, so "class project" won't submit. Write something specific about what you want and why. Here's a starting point — **put it in your own words and swap in your own project**, because a dozen identical paragraphs arriving from `virginia.edu` in the same week is the fastest way for all of us to get stuck in a review queue:
+
+> I am a first-year Ph.D. student in the School of Data Science at the University of Virginia, enrolled in DS 6600 (Data Engineering). Our semester project is a public transparency dashboard for the U.S. Congress that combines biographical and bill-sponsorship data from the Congress.gov API, roll-call voting records from Voteview, and campaign finance records from the FEC. I am requesting federal candidate contribution, PAC contribution, and independent expenditure data because OpenSecrets provides industry and sector classification of contributors that has no equivalent in the raw FEC files, and I want to summarize which industries support each member of Congress and how much outside spending targets them. I am separately building an independent data pipeline on [your topic], where [one sentence on how the data fits]. This is non-commercial coursework; any published output will credit OpenSecrets as required by the Creative Commons license.
+
+**If approval hasn't come through by mid-September, that's fine.** OpenSecrets contributes one thing to our dashboard — industry classification of donors — and everything else comes from the FEC. Tell me if you're still waiting and we'll work around it.
 
 **Paste your keys into a plain text file somewhere on your computer for now.** We'll learn the right way to store them on September 15. For the first three weeks we'll do it the wrong way on purpose, and I'll explain why in class.
 
