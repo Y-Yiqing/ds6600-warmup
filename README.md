@@ -126,15 +126,17 @@ git clone <paste-your-fork-url-here>
 cd ds6600-warmup
 ```
 
-**4.** Open `roster.md` in VS Code. Add one line with your name and one sentence about a dataset you find interesting. (This isn't your project topic — we lock that in September. I'm just curious, and it gives you something real to commit.)
+**4.** Open `aboutme.md` in VS Code and fill it in — your name, and a sentence or two about a dataset or topic you find interesting. This is your own copy, so write as much or as little as you like. (It isn't your project topic — we lock that in September. I'm curious, and it gives you something real to commit.)
+
+> **If you haven't used Markdown before, don't worry about it.** A `.md` file is an ordinary text file. Open it, type normally, save. The `#` and `*` characters you'll see in there are formatting marks that GitHub turns into headings and italics when it displays the file, but nothing breaks if you ignore them, and plain sentences work fine. We'll cover Markdown properly when you write your first lab report.
 
 Note that your fork is public, so keep it to whatever you'd be comfortable having visible. First name is fine.
 
 **5.** Save the file, then run these three commands:
 
 ```
-git add roster.md
-git commit -m "Add my line to the roster"
+git add aboutme.md
+git commit -m "Fill in aboutme"
 git push
 ```
 
