@@ -4,9 +4,9 @@
 
 **Program and year:** First-year Ph.D. student in Data Science
 
-**A dataset or topic I find interesting:** I study trustworthy multimodal and video AI. I am especially interested in building large-scale datasets and benchmarks that reveal when models truly reason from visual and temporal evidence—and when they fall back on memorized priors, shortcuts, or confident hallucinations. My broader goal is to help create AI systems that can understand long, complex videos and the physical world with evidence that people can inspect and trust.
+**A dataset or topic I find interesting:** I study efficient and trustworthy long-video understanding, especially training-free, evidence-aware frame selection for multimodal large language models. Long videos contain enormous redundancy, so my goal is to help a model identify the small set of frames that carries the decisive visual evidence and adapt its frame budget to each video and question—instead of sampling uniformly, wasting computation, or answering from prior knowledge without looking carefully enough.
 
-**Something I want to be able to do by December:** I want to build publication-quality, fully reproducible data infrastructure for frontier multimodal-AI research: pipelines that can curate real-world video data, run large-scale evaluations, audit model failures, and turn the results into an open benchmark or research artifact that other scientists can build on.
+**Something I want to be able to do by December:** I want to build an end-to-end, publication-quality frame-selection research system that scales across long-video benchmarks and model families, rigorously measures accuracy–compute tradeoffs, and explains why each selected frame is useful. My ambition is to turn this research into a top-conference paper and release reproducible code that makes long-video AI substantially more efficient, reliable, and accessible.
 
 ---
 
